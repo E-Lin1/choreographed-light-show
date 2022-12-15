@@ -1,1 +1,99 @@
 
+https://www.tinkercad.com/things/eV05dDMWSsx-song-light-show/editel
+
+// TWINKLE TWINKLE LITTLE STAR
+int green1 = 7;
+int green2 = 6;
+int blue1 = 5;
+int blue2 = 4;
+
+void setup(){
+	pinMode(green1, OUTPUT);
+	pinMode(green2, OUTPUT);
+	pinMode(blue1, OUTPUT);
+	pinMode(blue2, OUTPUT);
+  	
+  
+}
+
+void loop()
+{
+  part1();
+  part2();
+  part3();
+  exit(0); 
+   
+}
+ void part1() {
+    digitalWrite(7, HIGH);
+    digitalWrite(6, HIGH);
+    delay(400);
+    digitalWrite(7, LOW);
+    digitalWrite(6, LOW);
+    delay(400);
+    digitalWrite(5, HIGH);
+    digitalWrite(4, HIGH);
+    delay(400);
+    digitalWrite(5, LOW);
+    digitalWrite(4, LOW);
+    delay(400);
+    digitalWrite(7, HIGH);
+    digitalWrite(4, HIGH);
+    delay(400);
+    digitalWrite(7, LOW);
+    digitalWrite(4, LOW);
+    delay(250);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, HIGH);
+    delay(250);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+    delay(400);
+  }
+void part2() {
+  	delay(400);
+    digitalWrite(7, HIGH);
+    delay(400);
+    digitalWrite(7, LOW);
+    delay(400);
+    digitalWrite(6, HIGH);
+    delay(400);
+    digitalWrite(6, LOW);
+    delay(400);
+    digitalWrite(5, HIGH);
+    delay(400);
+  	digitalWrite(5, LOW);
+  	delay(400);
+    digitalWrite(4, HIGH);
+    delay(400);
+    digitalWrite(4, LOW);
+  }
+void part3() {
+  delay(400);
+  digitalWrite(6, HIGH);
+  digitalWrite(4, HIGH);
+  delay(500);
+  digitalWrite(6, LOW);
+  digitalWrite(4, LOW);
+  delay(500);
+  digitalWrite(7, HIGH);
+  digitalWrite(5, HIGH);
+  delay(500);
+  digitalWrite(7, LOW);
+  digitalWrite(5, LOW);
+  delay(500);
+  digitalWrite(6, HIGH);
+  digitalWrite(5, HIGH);
+  delay(500);
+  digitalWrite(6, LOW);
+  diigtalWrite(5, LOW);
+}
+
+  
+  
+      
+    
+   
+
+    
+
